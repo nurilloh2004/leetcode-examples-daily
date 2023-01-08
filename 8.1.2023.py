@@ -38,12 +38,13 @@ class Solution:
             "C": 100,
             "D": 500,
             "M": 1000
-        }                     # List created and input all neccessary values in.
+        }                     # List created and input all necessary values in.
         number = 0            # Attribute named number and default value = 0.
         s = s.replace("IV", "IIII").replace("IX", "VIIII")    # Using replace for replacing wrong types to Correct.
         s = s.replace("XL", "XXXX").replace("XC", "LXXXX")
         s = s.replace("CD", "CCCC").replace("CM", "DCCCC")
-        for char in s:       # Using for to check different types of varriables and filtering for input to number varriable
+        for char in s:       # Using for to check different types of variables and filtering for input to number variable
             number += list_all[char]
         return number
-"""Accepted !!!"""
+
+ """Accepted !!!"""
